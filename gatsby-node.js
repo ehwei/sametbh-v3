@@ -81,9 +81,6 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
             fields {
               slug
             }
-            frontmatter {
-              seoImage
-            }
           }
           next {
             fields {
@@ -125,7 +122,8 @@ exports.createPages = async ({ graphql, actions, reporter }) => {
     createPage({
       path: node.fields.slug,
       component: path.resolve(`./src/components/postLayout.js`),
-      context: { id: node.id, ogImageSlug: node.frontmatter.seoImage, next, previous },
+      // context: { id: node.id, ogImageSlug: node.frontmatter.seoImage, next, previous },
+      context: { id: node.id, next, previous },
     })
   })
 

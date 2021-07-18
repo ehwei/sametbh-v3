@@ -27,9 +27,9 @@ const Header = ({ activePage }) => (
         <NavLink to="/blog" title="Blog" selected={activePage === "blog"}>
           Blog
         </NavLink>
-        <NavLink to="/about" title="About" selected={activePage === "about"}>
+        {/* <NavLink to="/about" title="About" selected={activePage === "about"}>
           About
-        </NavLink>
+        </NavLink> */}
         <NavExtLink
           to="https://wiki.reckoning.dev"
           title="Wiki"
