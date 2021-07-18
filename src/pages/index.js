@@ -1,14 +1,14 @@
 import React from "react"
 import { Link } from "gatsby"
 import { graphql, useStaticQuery } from "gatsby"
-import { Blob } from "../components/atoms"
+// import { Blob } from "../components/atoms"
 import Layout from "../components/layout"
 // import Seo from "../components/seo"
 import PostList from "../components/postList"
 // import Contact from "../components/contact"
-import Image from "../components/image"
-import PublicationsGrid from "../components/publicationsGrid"
-import NewsGrid from "../components/newsGrid"
+// import Image from "../components/image"
+// import PublicationsGrid from "../components/publicationsGrid"
+// import NewsGrid from "../components/newsGrid"
 
 const IndexPage = () => {
   const data = useStaticQuery(graphql`
@@ -48,26 +48,25 @@ const IndexPage = () => {
         <br className="mb-6" />
             <br className="mb-6" />
             <span className="mt-12 lg:mt-0 max-w-3xl text-base sm:text-base sm:text-left md:text-center lg:text-left">
-              This is my digital garden for all things related to deep learning, machine learning, algorithms, maths, food and everything else!
-              <br /><br />I am a
-              Principal Research Scientist <a href="https://whiterabbit.ai" className="text-accent hover:text-accent hover:underline no-und" target="_blank" rel="noopener noreferrer">@whiterabbit.ai,</a> Photography Enthusiast, and a Foodie!
+             Hello.
+              {/* Principal Research Scientist <a href="https://whiterabbit.ai" className="text-accent hover:text-accent hover:underline no-und" target="_blank" rel="noopener noreferrer">@whiterabbit.ai,</a> Photography Enthusiast, and a Foodie! */}
         </span>
           </h1>
         </div>
 
-        <div className="relative">
+        {/* <div className="relative">
           <Blob />
           <div className="absolute w-full h-full top-0 flex items-center justify-center">
             <div className="h-32 w-32 md:h-40 md:w-40 lg:h-48 lg:w-48 rounded-full overflow-hidden">
               <Image />
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
 
-      <PostList posts={data.allMdx.edges} showHeading />
+      {/* <PostList posts={data.allMdx.edges} showHeading /> */}
 
-      <h2 className="mt-24 font-normal text-accent tracking-widestest">
+      {/* <h2 className="mt-24 font-normal text-accent tracking-widestest">
         RECENT NEWS/UPDATES
         </h2>
       <NewsGrid limit={4} />
@@ -93,7 +92,7 @@ const IndexPage = () => {
                 </span>
           </Link>
         </div>
-      </div>
+      </div> */}
       {/* <Contact /> */}
     </Layout>
   )
