@@ -1,11 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `reckoning.dev`,
-    description: `A blog on machine learning and algorithms`,
-    author: `Sadanand Singh`,
-    siteUrl: `https://reckoning.dev`,
-    image: `/images/og-card.png`,
-    twitterUsername: `@reckoning.dev`,
+    title: `sametbh-v3`,
+    description: `it be like that sometimes`,
+    author: `ehwei`,
+    siteUrl: `/`,
+    // image: `/images/og-card.png`,
+    // twitterUsername: `@reckoning.dev`,
   },
   plugins: [
     {
