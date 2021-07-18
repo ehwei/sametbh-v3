@@ -4,8 +4,8 @@ module.exports = {
     description: `it be like that sometimes`,
     author: `ehwei`,
     siteUrl: `https://sametbh-v4.netlify.app/`,
-    // image: `/images/og-card.png`,
-    // twitterUsername: `@reckoning.dev`,
+    image: `/images/og-card.png`,
+    twitterUsername: `@ehwei`,
   },
   plugins: [
     {
