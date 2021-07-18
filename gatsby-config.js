@@ -3,7 +3,7 @@ module.exports = {
     title: `sametbh-v3`,
     description: `it be like that sometimes`,
     author: `ehwei`,
-    siteUrl: `/`,
+    siteUrl: `https://sametbh-v4.netlify.app/`,
     // image: `/images/og-card.png`,
     // twitterUsername: `@reckoning.dev`,
   },
