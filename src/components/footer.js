@@ -17,9 +17,9 @@ const Footer = _ => {
             {/* <NavLink to="/about" title="About">
               About
             </NavLink> */}
-            <NavExtLink to="https://wiki.reckoning.dev" title="Wiki">
+            {/* <NavExtLink to="https://wiki.reckoning.dev" title="Wiki">
               Wiki
-            </NavExtLink>
+            </NavExtLink> */}
           </nav>
           {/* <div className="flex flex-col-reverse md:flex-row md:justify-between space-y-reverse space-y-8 md:space-y-0">
             <span

@@ -10,9 +10,9 @@ import Layout from "./layout"
 import Seo from "./seo"
 import Code from "./code"
 import { BlogTitle, BlogTitleInfo, ExtLink } from "./atoms"
-import Newsletter from "./newsletter"
+// import Newsletter from "./newsletter"
 import Toc from "./toc"
-import Comments from "./comments"
+// import Comments from "./comments"
 import RelatedPosts from "./relatedPosts"
 
 
@@ -77,7 +77,7 @@ const PostLayout = ({ pageContext, data: { mdx, ogImage } }) => {
               {prevArticle}
               {nextArticle}
             </div>
-            <Comments />
+            {/* <Comments /> */}
           </article>
           {mdx.tableOfContents && mdx.frontmatter.toc === true && (
             <aside className="sticky hidden lg:block max-w-xs ml-5 mt-0 h-screen">
