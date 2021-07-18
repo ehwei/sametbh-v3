@@ -105,7 +105,7 @@ const PostLayout = ({ pageContext, data: { mdx, ogImage } }) => {
       {mdx.relatedReads.length !== 0 && (
         <RelatedPosts posts={mdx.relatedReads} tags={mdx.frontmatter.tags} />
       )}
-      <Newsletter />
+      {/* <Newsletter /> */}
     </Layout>
   )
 }

@@ -4,7 +4,8 @@ import { NavLink, NavExtLink } from "./atoms"
 const Footer = _ => {
   return (
     <footer className="relative w-full h-56 text-secondary overflow-hidden bg-secondary">
-      <div className="container h-full md:max-w-screen-md lg:max-w-screen-xl m-auto px-5 md:px-20 pb-12 pt-24">
+      <div className="container h-full md:max-w-screen-md lg:max-w-screen-xl m-auto px-5 md:px-20 py-6">
+      {/* pb-12 pt-24 */}
         <div className="container flex-col justify-between md:space-y-8">
           <nav className="hidden lg:flex flex-row items-center space-x-6 justify-center md:justify-end text-sm">
             <NavLink to="/" title="Home">
@@ -20,7 +21,7 @@ const Footer = _ => {
               Wiki
             </NavExtLink>
           </nav>
-          <div className="flex flex-col-reverse md:flex-row md:justify-between space-y-reverse space-y-8 md:space-y-0">
+          {/* <div className="flex flex-col-reverse md:flex-row md:justify-between space-y-reverse space-y-8 md:space-y-0">
             <span
               className="text-xs tracking-wider self-center md:self-end"
               aria-label="Copyright"
@@ -122,7 +123,7 @@ const Footer = _ => {
                 </a>
               </span>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

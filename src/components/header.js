@@ -30,13 +30,13 @@ const Header = ({ activePage }) => (
         {/* <NavLink to="/about" title="About" selected={activePage === "about"}>
           About
         </NavLink> */}
-        <NavExtLink
+        {/* <NavExtLink
           to="https://wiki.reckoning.dev"
           title="Wiki"
           selected={activePage === "wiki"}
         >
           Wiki
-        </NavExtLink>
+        </NavExtLink> */}
       </span>
       <ThemeToggle className="hidden sm:block hover:text-accent transition duration-150" />
     </nav>

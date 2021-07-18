@@ -86,7 +86,7 @@ const TagPage = ({ pageContext, data }) => {
                 ))}
             </div>
 
-            <Newsletter />
+            {/* <Newsletter /> */}
         </Layout>
     )
 }
